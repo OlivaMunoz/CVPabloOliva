@@ -89,3 +89,34 @@ a:hover {
         gap: 30px;
     }
 }
+/* Media query para pantallas pequeñas (menor a 480px) */
+@media (max-width: 480px) {
+    .container {
+        padding: 10px; /* Reduce el padding para pantallas más pequeñas */
+    }
+
+    h1 {
+        font-size: 1.2em; /* Reduce el tamaño de la fuente */
+    }
+
+    .profile-img {
+        width: 90%; /* La imagen ocupa el 90% del ancho disponible en pantallas pequeñas */
+    }
+
+    .left {
+        width: 100%; /* Asegura que ocupe todo el ancho */
+        text-align: center; /* Alineación centrada */
+        margin-right: 0; /* Elimina el margen derecho */
+    }
+
+    .right {
+        width: 100%; /* Asegura que ocupe todo el ancho */
+        padding-right: 0; /* Elimina el padding derecho */
+        text-align: center; /* Alineación centrada */
+    }
+
+    .links {
+        flex-direction: column; /* Alineación vertical en pantallas pequeñas */
+        gap: 10px;
+    }
+}
