@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.profile-img {
+    width: 80%; /* Aumenta el tamaño de la imagen */
+    max-width: 400px; /* Limita el tamaño máximo */
+    border-radius: 20px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 60%; /* Esto asegura que el contenedor ocupe solo el 70% del ancho disponible */
+    padding-right: 15%; /* Esto deja un padding del 30% del lado derecho */
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+a:hover {
+    color: #7c7a7a;
+}
+
