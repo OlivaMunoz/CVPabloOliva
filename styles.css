@@ -115,13 +115,13 @@ a:hover {
     }
 
     .links {
-        flex-direction: raw; /* Alineación vertical en pantallas pequeñas */
+        flex-direction: row; /* Alineación vertical en pantallas pequeñas */
         gap: 10px;
     }
 }
 
     .links {
-        flex-direction: raw; /* Alineación vertical en pantallas pequeñas */
+        flex-direction: row; /* Alineación vertical en pantallas pequeñas */
         gap: 10px;
     }
 }
