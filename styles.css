@@ -121,7 +121,7 @@ a:hover {
 }
 
     .links {
-        flex-direction: column; /* Alineación vertical en pantallas pequeñas */
+        flex-direction: raw; /* Alineación vertical en pantallas pequeñas */
         gap: 10px;
     }
 }
