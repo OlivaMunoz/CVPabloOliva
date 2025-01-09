@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="page-title">Mi Curriculum</title>
+  <link rel="stylesheet" href="css/curriculum.css">
+</head>
+<body>
+  <div class="container">
+    <div class="menu">
+      <div class="links">
+        <a href="index.html" id="link-home">Inicio</a>
+        <a href="sobreMi.html" id="link-about">Sobre mí</a>
+        <a href="contacto.html" id="link-contact">Contacto</a>
+      </div>
+      <div class="cv-link">
+        <a href="https://github.com/tu_usuario/tu_repositorio/raw/main/cv.pdf" 
+          download="CV_PabloOlivaMuñoz.pdf" id="link-download">
+            Descargar mi CV
+        </a>
+        <a href="https://github.com/OlivaMunoz/CVPabloOliva/raw/master/cv%20informaticoENG.pdf" 
+          download="CV_PabloOlivaMuñoz_en.pdf" id="link-download-en">
+            Download my CV in English
+        </a>
+    </div>    
+    </div>
+
+    <div class="language-selector">
+      <label for="language-select">Idioma:</label>
+      <select id="language-select">
+        <option value="es" selected>Español</option>
+        <option value="en">English</option>
+      </select>
+    </div>
+
+    <div class="main-content">
+      <div class="right">
+        <img src="img/p2.png" alt="Mi Foto" class="profile-img">
+      </div>
+
+      <section id="curriculum">
+        <div class="curriculum-header">
+          <h2 id="profile-header">Perfil Profesional</h2>
+        </div>
+        <hr>
+        <p id="profile-description">
+          Soy un profesional motivado y con una sólida formación en el sector de la programación. Aunque soy nuevo en este campo, me apasiona el mundo del desarrollo de software...
+        </p>
+
+        <h3 id="education-header">Formación Académica Reglada</h3>
+        <ul id="education-list">
+          <li id="education-list-1">2024 – Actualidad: Ciclo de Grado Superior en Desarrollo de Aplicaciones Web (2º año).</li>
+          <li id="education-list-2">2010-2011: Grado Medio en Buceo Media Profundidad.</li>
+          <li id="education-list-3">2008-2009: Grado Medio en Equipos Electrónicos de Consumo.</li>
+        </ul>
+
+        <h3 id="courses-header">Cursos y Certificaciones</h3>
+        <ul id="courses-list">
+          <li id="courses-list-1">2024: Fundamentos de Java.</li>
+          <li id="courses-list-2">2024: Fundamentos de Bases de Datos.</li>
+          <li id="courses-list-3">2024: Framework Angular.</li>
+        </ul>
+
+        <h3 id="tech-header">Tecnologías y Lenguajes</h3>
+        <ul id="tech-list">
+          <li id="tech-list-1">XML, HTML, PHP, CSS, JavaScript, TypeScript, RSS, SQL, MySQL, PHP, Java.</li>
+          <li id="tech-list-2">Windows 10, Windows Server, Linux.</li>
+          <li id="tech-list-3">Apache, Angular, Visual Studio, JUnit, StarUML, Apache NetBeans.</li>
+        </ul>
+
+        <h3 id="experience-header">Experiencia Laboral</h3>
+        <ul id="experience-list">
+          <li><strong>2017-2024:</strong> Director de negocios en Bali (hotel, centro de buceo y hípica).</li>
+          <li><strong>2021-2022:</strong> UCS "Underwater Construction Spain" como buzo profesional en Cabo Verde.</li>
+        </ul>
+
+        <h3 id="other-header">Otros Datos de Interés</h3>
+        <ul id="other-list">
+          <li id="other-list-1">Carnet de conducir tipo B.</li>
+          <li id="other-list-2">Vehículo propio.</li>
+        </ul>
+      </section>
+    </div>
+  </div>
+  <script src="js/curriculum.js"></script>
+</body>
+</html>

@@ -1,0 +1,154 @@
+/* Reset general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* Contenedor principal */
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Menú superior */
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.links a:hover {
+    color: #7c7a7a;
+}
+
+/* Contenedor para los botones de descarga */
+.cv-link {
+    display: flex;
+    gap: 20px;  /* Espacio de 20px entre los botones */
+    margin-top: 20px;  /* Espacio entre los botones y el contenido superior */
+    justify-content: center;  /* Centrar los botones */
+}
+
+/* Estilo para los botones de descarga */
+.cv-link a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover para los botones */
+.cv-link a:hover {
+    background-color: #0056b3;
+}
+
+
+/* Contenido principal */
+.main-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Sección izquierda: Texto */
+.left {
+    width: 55%;  /* Reducir el ancho para darle más espacio a la foto */
+    padding-right: 30px;  /* Añadir padding para que el texto no quede pegado */
+}
+
+.left h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.left p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Sección derecha: Foto */
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;  /* Reducir el ancho de la foto */
+    padding-right: 20px;
+}
+
+.profile-img {
+    width: 100%;  /* Ajustar para que ocupe todo el ancho disponible */
+    max-width: 250px;  /* Limitar el tamaño máximo para que la imagen sea más pequeña */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Selector de idioma */
+.language-selector {
+    position: absolute;
+    top: 15px;  /* Ajustar para que esté un poco más alejado del borde superior */
+    right: 30px;  /* Ajustar para que no quede tan pegado al borde */
+    z-index: 100;
+}
+
+/* Estilo del selector de idioma */
+select {
+    font-size: 16px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+select:focus {
+    outline: none;
+    border-color: #666;
+}
+
+/* Botón de descarga centrado */
+.cv-link {
+    display: flex;
+    justify-content: center;  /* Centrar el botón */
+    margin-top: 20px;  /* Espacio entre la imagen y el botón */
+    width: 100%;
+}
+
+.cv-link a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cv-link a:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,133 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos generales */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Menú de navegación */
+  .menu {
+    margin-bottom: 20px;
+  }
+  
+  .links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  
+  .links a:hover {
+    color: #7c7a7a;
+  }
+  
+  /* Título de proyectos */
+  .projects-title {
+    font-size: 2em;
+    margin: 20px 0;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Lista de proyectos */
+  .projects {
+    margin-top: 20px;
+  }
+  
+  .project {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: center;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .project-link:hover {
+    color: #7c7a7a;
+  }
+  
+  .project p {
+    font-size: 1em;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  .project-img {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+  
+  .tech-stack {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  .tech-stack li {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9em;
+  }
+  
+  /* Botón para "Ver más proyectos" */
+  .button {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .links {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .project {
+      text-align: center;
+    }
+  
+    .tech-stack {
+      flex-wrap: wrap;
+    }
+  }
+  
