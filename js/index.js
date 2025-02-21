@@ -70,3 +70,4 @@ const translations = {
     applyTranslation(selectedLanguage); // Aplicar traducción
   });
 });
+
